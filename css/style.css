@@ -1,0 +1,61 @@
+body {
+  background-color: black;
+}
+.form {
+
+  padding: 20px;
+  background-color: rgb(12, 12, 66);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.all  {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.input-text {
+  border: none;
+  outline: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+  width: 350px;
+}
+/* .del {
+  padding: 5px 8px;
+  background-color: red;
+  color: white;
+  border: 1px solid black;
+  border-radius: 4px;
+} */
+.done {
+  background-color: red;
+}
+.tasks {
+
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 20px;
+
+  margin-top: 20px;
+  
+  background-color: rgb(31, 3, 3);
+
+
+
+
+}
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  background-color: rgb(5, 24, 26);
+  margin-top: 10px;
+  border-radius: 20px;
+  padding: 10px;
+  color: white;
+}
